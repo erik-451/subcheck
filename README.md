@@ -12,5 +12,5 @@ You can check the status code of a directory on all subdomains that are in a fil
 git clone https://github.com/erik-451/subcheck
 cd subcheck
 chmod +x subcheck.sh
-./subcheck.sh subdomains.txt /robots.txt 1 |grep 200
+./subcheck.sh subdomains.txt /robots.txt |grep 200
 ```
